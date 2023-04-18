@@ -1,0 +1,47 @@
+package com.portfolio.ariel.PortfolioAriel.Security.DTO;
+
+import java.util.HashSet;
+import java.util.Set;
+
+public class NuevoUsuario {
+	private String nombre;
+	private String nombreUsuario;
+	private String email;
+	private String contrasenia;
+	private Set<String> roles = new HashSet<>();
+	
+	//Getters/Setters
+
+	public String getNombre() {
+		return nombre;
+	}
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
+	}
+	public String getNombreUsuario() {
+		return nombreUsuario;
+	}
+	public void setNombreUsuario(String nombreUsuario) {
+		this.nombreUsuario = nombreUsuario;
+	}
+	public String getEmail() {
+		return email;
+	}
+	public void setEmail(String email) {
+		this.email = email;
+	}
+	public String getContrasenia() {
+		return contrasenia;
+	}
+	public void setContrasenia(String contrasenia) {
+		this.contrasenia = contrasenia;
+	}
+	public Set<String> getRoles() {
+		return roles;
+	}
+	public void setRoles(Set<String> roles) {
+		this.roles = roles;
+	}
+
+	
+}
