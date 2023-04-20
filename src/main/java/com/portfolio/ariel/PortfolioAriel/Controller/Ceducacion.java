@@ -22,7 +22,7 @@ import com.portfolio.ariel.PortfolioAriel.Security.Controller.Mensaje;
 import com.portfolio.ariel.PortfolioAriel.Service.SEducacion;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = {"https://frontendarb.web.app","http://localhost:4200"})
 @RequestMapping("/Educacion")
 public class Ceducacion {
 

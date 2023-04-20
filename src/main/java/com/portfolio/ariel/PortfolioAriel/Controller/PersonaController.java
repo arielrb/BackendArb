@@ -19,7 +19,7 @@ import com.portfolio.ariel.PortfolioAriel.Security.Controller.Mensaje;
 import com.portfolio.ariel.PortfolioAriel.Service.SPersona;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = {"https://frontendarb.web.app","http://localhost:4200"})
 @RequestMapping("/MiPersona")
 public class PersonaController {
 
