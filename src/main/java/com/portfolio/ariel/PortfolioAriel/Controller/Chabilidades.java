@@ -24,7 +24,7 @@ import com.portfolio.ariel.PortfolioAriel.Security.Controller.Mensaje;
 import com.portfolio.ariel.PortfolioAriel.Service.SHabilidades;
 
 @RestController
-@CrossOrigin(origins = {"https://frontendarb.web.app","http://localhost:4200"})
+@CrossOrigin(origins = {"https://frontendarb.web.app"})
 @RequestMapping("/Habilidades")
 public class Chabilidades {
 	@Autowired

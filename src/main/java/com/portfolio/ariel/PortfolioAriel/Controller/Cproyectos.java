@@ -24,7 +24,7 @@ import com.portfolio.ariel.PortfolioAriel.Security.Controller.Mensaje;
 import com.portfolio.ariel.PortfolioAriel.Service.SProyectos;
 
 @RestController
-@CrossOrigin(origins = {"https://frontendarb.web.app","http://localhost:4200"})
+@CrossOrigin(origins = {"https://frontendarb.web.app"})
 @RequestMapping("/Proyectos")
 public class Cproyectos {
 

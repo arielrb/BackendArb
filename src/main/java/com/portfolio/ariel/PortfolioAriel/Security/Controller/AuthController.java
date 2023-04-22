@@ -31,7 +31,7 @@ import com.portfolio.ariel.PortfolioAriel.Security.DTO.NuevoUsuario;
 
 @RestController
 @RequestMapping("/auth")
-@CrossOrigin
+@CrossOrigin(origins = {"https://frontendarb.web.app"})
 public class AuthController {
 	@Autowired
 	PasswordEncoder passEncoder;
